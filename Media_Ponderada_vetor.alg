@@ -1,5 +1,5 @@
 algoritmo "Media_Ponderada"
-
+// Recebe a nota e o peso de 3 notas, a partir do resultado mostra o conceito da nota
 var
 nota:vetor[1..3] de inteiro
 peso:vetor[1..3] de inteiro
@@ -8,9 +8,9 @@ mp: real
 conceito: caractere
 inicio
 para cont de 1 ate 3 faca
- escreva(cont,"° nota: ")
+ escreva(cont,"Â° nota: ")
  leia(nota[cont])
-   escreva(cont,"° peso: ")
+   escreva(cont,"Â° peso: ")
   leia(peso[cont])
 fimpara
 
@@ -35,8 +35,8 @@ fimpara
  fimse
  fimse
 
-  escreval("Média ponderada: ",mp:5:2)
- Escreval("O Conceito do aluno é: ",conceito)
+  escreval("MÃ©dia ponderada: ",mp:5:2)
+ Escreval("O Conceito do aluno Ã©: ",conceito)
 
 
  
