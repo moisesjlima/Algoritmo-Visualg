@@ -1,8 +1,8 @@
-algoritmo "semnome"
-// Função :
+algoritmo "Ano_Bissexto"
+// FunÃ§Ã£o :
 // Autor :
 // Data : 20/09/2020
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 mes, ano: inteiro
 dias: inteiro
@@ -10,7 +10,7 @@ bissexto: logico
 inicio
 escreva("ano: ")
 leia(ano)
-escreva("mês: ")
+escreva("mÃªs: ")
 leia(mes)
 
 bissexto<- falso
@@ -40,8 +40,8 @@ fimse
 escreval()
 
 escreval("Ano: ",ano)
-escreval("Mês: ",mes," quantos dias possui esse mês:" , dias)
-escreval("É ano bissexto:",bissexto)
+escreval("MÃªs: ",mes," quantos dias possui esse mÃªs:" , dias)
+escreval("Ã‰ ano bissexto:",bissexto)
 
 
 
