@@ -1,4 +1,4 @@
-algoritmo "dado:a,b,c, calcular as médias"
+algoritmo "dado:a,b,c, calcular as mÃ©dias"
 var
 a,b,c: real
 media_aritmetica, media_geometrica, media_harmonica, media_ponderada :real
@@ -12,11 +12,9 @@ leia(c)
 
 media_aritmetica<- (a+b+c)/3
 media_geometrica<- (a*b*c)^(1/3)
-//media_harmonica
-//media_ponderada<- (a+b+c)
 
-escreval("Média aritmética: ",media_aritmetica)
-escreval("Média Geometrica: ",media_geometrica)
+escreval("MÃ©dia aritmÃ©tica: ",media_aritmetica)
+escreval("MÃ©dia Geometrica: ",media_geometrica)
 
 
 
